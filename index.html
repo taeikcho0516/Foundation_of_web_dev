@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progear Hub Home Page</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="icon_chat.jpeg" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--https://flickity.metafizzy.co/-->
+    
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="logo.png">
+        <form class="search" method="get" action="search">
+            <input type="search" placeholder="search for a product">
+        </form>
+        <nav class="user-nav">
+            <a href="favorites.html">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+            <a href="cart.html">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+        </nav>
+        <nav class="navigation">
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="accessories.html">Accessories</a>
+        </nav>
+    </header>        
+    <!-- carousel -->
+    <div class="slideshow" data-flickity='{"cellAlign":"left","contain":true}'>
+        <div class="slide">One</div>
+        <div class="slide">Two</div>
+        <div class="slide">Three</div>
+        <div class="slide">Four</div>
+        <div class="slide">Five</div>
+    </div>
+</body>
+</html>
